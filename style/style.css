@@ -1,0 +1,296 @@
+html {
+	scroll-behavior : smooth;
+}
+
+#haut{
+	display: flex;
+	justify-content:flex-end;
+	align-items: center;
+}
+
+#title
+{
+	font-family: 'Quicksand';
+	font-size: 250%;
+	text-align: left;
+	color : #F96815;
+	display: block;
+  margin-left: 2.5%;
+  margin-right: auto;
+	margin-top: 2.5%;
+	margin-bottom: 5%;
+}
+
+
+.login{
+	font-family: 'Quicksand';
+	font-size: 100%;
+	display: block;
+	margin-top: 2.5%;
+	margin-bottom: 5%;
+	margin-right: 2.5%;
+	margin-left: 0;
+}
+
+.login a{
+	color : #F96815;
+	text-decoration: none;
+}
+
+
+/*
+h1
+{
+	font-family: 'bauhaus-93';
+	text-align: center;
+	font-size: 1000%;
+	color : #F96815;
+	margin-top: 10%;
+	margin-bottom: 1%;
+}
+
+
+.signin a{
+	font-family: 'bauhaus-93';
+	text-decoration: none;
+	color : #FFFFFF;
+}
+
+.signin {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border:none;
+  width:20%;
+  height: 50px;
+  border-radius: 30px;
+  font-size: 20px;
+  background: #F96815;
+	margin-left: 40%;
+	margin-right : 40%;
+}
+
+.cloverleaf a{
+	font-family: 'bauhaus-93';
+	text-decoration: none;
+	color : #FFFFFF;
+}
+
+.cloverleaf {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border:none;
+  width:20%;
+  height: 50px;
+  border-radius: 30px;
+  font-size: 20px;
+  background: #F96815;
+	margin-top: 1%;
+	margin-left: 40%;
+	margin-right : 40%;
+}
+
+.sienna a{
+	font-family: 'bauhaus-93';
+	text-decoration: none;
+	color : #FFFFFF;
+}
+
+.sienna {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border:none;
+  width:20%;
+  height: 50px;
+  border-radius: 30px;
+  font-size: 20px;
+  background: #F96815;
+	margin-top: 1%;
+	margin-left: 40%;
+	margin-right : 40%;
+}
+*/
+/*
+#section_bands p {
+	font-family: 'Oswald';
+	text-align: center;
+	font-size: 200%;
+	color : #F79E21;
+}
+#section_bands h3{
+	font-family: 'Oswald';
+	text-align: center;
+}
+#BandsOrder{
+	font-family: 'Oswald';
+	text-align: center;
+	display: block;
+	font-size: 120%;
+	text-decoration: none;
+	color : #F79E21;
+	margin-bottom: 20%;
+}
+#section_bands figure {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#section_bands a img {
+	border-radius: 5%;
+}
+
+
+
+#div_button{
+	margin-top: 2.5%;
+	margin-bottom: 30%;
+}
+*/
+
+a img
+{
+	width: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 1%;
+}
+
+.items_1, .items_2, .items_3, .items_4
+{
+	display: grid;
+	grid-template-columns : 1fr 1fr 1fr 1fr;
+}
+
+.items_1 p,h2, .items_2 p,h2, .items_3 p,h2, .items_4 p,h2
+{
+	margin: 0;
+	font-size: 12.5px;
+	font-family: 'Oswald';
+}
+
+.items_1 h2, .items_2 h2, .items_3 h2, .items_4 h2
+{
+	font-size: 20px;
+	font-family: 'Oswald';
+}
+
+.item_1_pictures /* Transitions de figures quand on passe dessus */
+
+{
+	transition: 1s ease-in-out;
+	transform: scale(1.5);
+}
+
+.item_1_pictures:hover /* Les images grossissent quand on passe la souris dessus*/
+
+{
+	transform: scale(1.75);
+}
+
+.product
+{
+	width: 100%;
+}
+
+figure
+{
+	text-align: center;
+}
+
+.item_1_description
+{
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 10%;
+	margin-top: 5%;
+	font-family: 'Oswald';
+}
+
+.item_1_image
+{
+	width: 25%;
+}
+
+.item_1_pic
+{
+	width: 50%;
+}
+
+.item_1_image,.item_1_pic,.item_1_image
+{
+	border-radius: 2%;
+}
+
+.item_1_pictures_section
+{
+	display: grid;
+	grid-template-columns : 1fr 1fr 1fr;
+}
+
+/* Disposition du pied de page(footer), avec couleur et épaisseur*/
+footer
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	background-color: #F96815;
+	width: 100%;
+	margin-top: 4%;
+}
+
+/* Propriétés pour centrer le texte des 4 cases du pied de page */
+footer ul
+{
+	padding: 15px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/* Texte du footer, couleur et taille de police, avec hauteur des lignes pour ajuster au mieux les lignes*/
+footer ul li
+{
+	vertical-align: top;
+	text-align: left;
+	color: #fffcf4;
+	line-height: 25px;
+	list-style: none;
+}
+
+/* Couleur du texte des lien*/
+footer ul li a
+{
+	color: #fffcf4;
+	text-decoration: none;
+}
+
+/* idem que prècedent*/
+footer a
+{
+	color: #fffcf4;
+	display: inline-block;
+	position: relative;
+}
+
+/* Changement de couleur du footer après placement avec le curseur*/
+.footer:hover
+{
+	background-color: #fffcf4;
+	transition: 1s;
+}
+
+/* Changement de couleur du texte*/
+.footer:hover li
+{
+	color: #F96815;
+}
+
+/* Changement de couleur des lien*/
+.footer:hover a
+{
+	color: #F96815;
+}
